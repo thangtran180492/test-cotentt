@@ -1,0 +1,99 @@
+@charset "UTF-8";
+body {
+	text-align: center;
+	background-color: #F5FCEF;
+	font-family: Arial;
+}
+.login {
+	text-align: center;
+    width: 1024px;
+    height: 650px;
+    margin: 20px auto;
+    background: red;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #bd521f;
+}
+/* form login  */
+.form {
+	color: #333;
+	height: 100%;
+	float: left;
+	width: 50%;
+	background: white;
+}
+.goto-home {
+	width: 90px;
+    padding: 15px 30px;
+    background-color: #fdf2e1;
+    border: 3px outset #F5FCEF;
+    border-radius: 20px;
+    margin-top: 100px;
+    transition-property: background;
+    transition-duration: 1s;
+}
+.goto-home:hover {
+	background-color: #bd521f;
+}
+
+.form h1 {
+	font-size: 300%;
+}
+.form input {
+	width: 60%;
+    height: 43px;
+    margin: 10px 0px;
+    padding: 0px 20px;
+    font-size: 14pt;
+    border: none;
+    background-color: #ffbea2;
+}
+.form input[type=submit]{
+	height: 52px;
+    border-radius: 20px;
+    background: #FF7235;
+    font-weight: bold;
+    color: #F5FCEF;
+    transition-property: background;
+    transition-duration: 1s;
+}
+
+.form input[type=checkbox] {
+	width: 20px;
+    height: 20pxpx;
+    vertical-align: middle;
+}
+.form input[type=submit]:hover {
+	background: #bd521f;
+}
+/* title login  */
+.title-login {
+	float: left;
+    height: 100%;
+    width: 50%;
+    background: #bd521f;
+    color: #F5FCEF;
+}
+.gotoRegister {
+	text-decoration: none;
+    color: blue;
+    margin-left: 10px;
+}
+.title-login h1 {
+	font-size: 300%;
+}
+.title-login p {
+	font-size: 155%;
+	padding: 0px 72px;
+}
+
+@media screen and (max-width: 1024px){
+		.login {
+			width: 100%;
+		}
+}
+@media screen and (max-width: 800px){
+		.login {
+			width: 800px;
+		}
+}

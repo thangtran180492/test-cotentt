@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-family: Arial;
+}
+/* content*/
+a {
+	text-decoration: none;
+}
+.admin-background{
+	display: flex;
+    height: 760px;
+    background: #072832;
+}
+
+.manager {
+	border-right: outset;
+    border-color: #165581;
+    width: 25%;
+    height: 100%;
+    background: #00303e;
+}
+
+.background-profile {
+	object-fit: cover;
+    position: absolute;
+    height: 760px;
+    width: 20%;
+    opacity: 25%;
+}
+
+.setting {
+	position: absolute;
+	width: 20%;
+}
+.setting h4 {
+	display: block;
+	color: #FF7235;
+    padding: 25px 0px;
+    text-align: center;
+}
+.content {
+	width:100%;
+}
+
+.manager a {
+	color: #F5FCEF;
+    display: block;
+    padding: 10px 0px 10px 20px;
+    font-size: 10pt;
+    transition-property: background;
+    transition-duration: 1s;
+}
+.manager a img{
+	vertical-align: text-bottom;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+.manager a:hover, .my-home a:hover {
+	background: #FF7235;
+}
+
+.manager p {
+	margin: 5px 0px 0px 40px;
+}
+
+/* content */
+.content-cover {
+	height: 50%;
+}
+.cover {
+	height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-bottom: 5px outset #165581;
+}
+
+.my-home {
+	margin-top: 20px;
+    width: 75%;
+    position: absolute;
+}
+.my-home a{
+	color: #F5FCEF;
+    padding: 10px;
+    margin-left: 10px;
+    float: right;
+    border: 1px solid #F5FCEF;
+    border-radius: 10px;
+    transition-property: background;
+    transition-duration: 1s;
+}
+.my-home img {
+	width: 25px;
+	height: 25px;
+	vertical-align: text-bottom;
+}
+.content-list {
+	color: #F5FCEF;
+	width: 615px;
+    height: 50%;
+}
+
+.members {
+	font-weight: bold;
+	padding: 15px;
+    margin: 10px 0px 0px 10px;
+    background: #FF7235;
+    border-radius: 15px 15px 0px 0px;
+}
+/* table */
+.content-list table {
+	background: #094456;
+    padding: 0px 20px 20px 20px;
+    margin-left: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+.content-list th, td {
+	border-top: 1px solid #FF7235;
+	text-align: left;
+    padding: 10px;
+}
+.id {
+	width: 50px;
+}
+.name {
+	width: 150px;
+}
+.student {
+	width: 150px;
+}
+.class {
+	width: 150px;
+}

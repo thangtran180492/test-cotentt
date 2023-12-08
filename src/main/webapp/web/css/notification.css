@@ -1,0 +1,83 @@
+@charset "UTF-8";
+body {
+	text-align: center;
+	background-color: #F5FCEF;
+	font-family: Arial;
+}
+.login {
+	text-align: center;
+    width: 1024px;
+    height: 650px;
+    margin: 20px auto;
+    background: red;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #bd521f;
+}
+.login p {
+	margin: 0px;
+	padding: 0px;
+}
+/* form login  */
+.goto-home {
+	width: 90px;
+    padding: 15px 30px;
+    background-color: #fdf2e1;
+    border: 3px outset #F5FCEF;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition-property: background;
+    transition-duration: 1s;
+}
+.goto-home:hover {
+	background-color: #bd521f;
+}
+
+/* title login  */
+.title-login {
+	float: left;
+    height: 100%;
+    width: 100%;
+    background: #bd521f;
+    color: #F5FCEF;
+}
+
+.title-login h1 {
+	margin: 7px 0px;
+    font-size: 200%
+}
+.notification-infor, .notification-product {
+	width: 96%;
+    margin: 10px auto;
+}
+.notification-infor td, .notification-infor th {
+	width: 50%;
+    padding: 10px;
+}
+.notification-product th, .notification-product td, .notification-infor td {
+    padding: 10px;
+    border: 1px solid #F5FCEF;
+    border-radius: 5px;
+}
+.total {
+	text-align: right;
+}
+@media screen and (max-width: 1024px){
+		.login {
+			width: 100%;
+		}
+}
+@media screen and (max-width: 400px){
+		
+		* {
+			font-size: 8pt;
+		}
+}
+@media screen and (max-width: 400px){
+		.login {
+			width: 400px;
+		}
+		* {
+			font-size: 6pt;
+		}
+}
